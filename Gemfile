@@ -42,6 +42,9 @@ gem 'sprockets', '2.11.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'faker'
+gem 'bootstrap-will_paginate'
+
 group :development, :test do
   #gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
